@@ -441,15 +441,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "exampleproxy"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "base64 0.13.1",
- "reqwest",
-]
-
-[[package]]
 name = "fastrand"
 version = "1.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1244,6 +1235,15 @@ checksum = "64a4a911eed85daf18834cfaa86a79b7d266ff93ff5ba14005426219480ed662"
 dependencies = [
  "libc",
  "winapi",
+]
+
+[[package]]
+name = "storm"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "base64 0.13.1",
+ "reqwest",
 ]
 
 [[package]]
